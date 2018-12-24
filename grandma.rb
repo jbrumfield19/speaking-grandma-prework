@@ -13,5 +13,5 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 def speak_to_grandma
   if phrase== "I LOVE YOU GRANDMA!"
-    return ""
-    elsif phrase == String.downcase
+    return "I LOVE YOU TOO PUMPKIN"
+    elsif phrase == String.upcase

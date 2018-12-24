@@ -18,6 +18,6 @@ def speak_to_grandma(phrase)
   if phrase == String.upcase
     return "NO, NOT SINCE 1938"
   end
-  if phrase != S
+  if phrase != String.upcase
     return "HUH?! SPEAK UP, SONNY!"
  end
